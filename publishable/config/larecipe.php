@@ -214,4 +214,12 @@ return [
     'google-analytics' => [
         'id' => env('GOOGLE_ANALYTICS_ID', ''),
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Google AdSense
+    */
+    'google-adsense' => [
+        'id' => env('GOOGLE_ADSENSE_ID', ''),
+    ],
 ];

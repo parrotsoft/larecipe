@@ -65,6 +65,11 @@
             </script>
         @endif
 
+        @if(config('larecipe.google-adsense.id') !== null && config('larecipe.google-adsense.id') !== '')
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ config('larecipe.google-adsense.id') }}"
+                    crossorigin="anonymous"></script>
+        @endif
+
     </head>
     <body>
         <div id="app" v-cloak>
